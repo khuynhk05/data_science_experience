@@ -1,0 +1,238 @@
+1517240852925:install.packages("sparklyr")
+1517240897642:install.packages("sparklyr")
+1517240903920:install.packages("sparklyr")
+1517240907116:install.packages("sparklyr")
+1517240910164:install.packages("sparklyr")
+1517240913541:install.packages("sparklyr")
+1517240916459:install.packages("sparklyr")
+1517240919944:install.packages("sparklyr")
+1517240923323:install.packages("sparklyr")
+1517240927192:install.packages("sparklyr")
+1517240930500:install.packages("sparklyr")
+1517240933724:install.packages("sparklyr")
+1517240936635:install.packages("sparklyr")
+1517240939435:install.packages("sparklyr")
+1517240942153:install.packages("sparklyr")
+1517240944876:install.packages("sparklyr")
+1517240952624:install.packages("sparklyr")
+1517240955968:install.packages("sparklyr")
+1517240958955:install.packages("sparklyr")
+1517240962381:install.packages("sparklyr")
+1517240967308:install.packages("sparklyr")
+1517241136510:library(sparklyr)
+1517241136517:# setup SPARK_HOME
+1517241136522:if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517241136527:Sys.setenv(SPARK_HOME = "/opt/spark")
+1517241136532:}
+1517241136538:# setup SparkaaS instances
+1517241136543:options(rstudio.spark.connections = c("Apache Spark-47"))
+1517241180182:library(sparklyr)
+1517241180189:# setup SPARK_HOME
+1517241180194:if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517241180198:Sys.setenv(SPARK_HOME = "/opt/spark")
+1517241180203:}
+1517241180208:# setup SparkaaS instances
+1517241180212:options(rstudio.spark.connections = c("Apache Spark-47"))
+1517241180218:print kernel
+1517241187378:library(sparklyr)
+1517241187383:# setup SPARK_HOME
+1517241187388:if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517241187393:Sys.setenv(SPARK_HOME = "/opt/spark")
+1517241187397:}
+1517241187403:# setup SparkaaS instances
+1517241187409:options(rstudio.spark.connections = c("Apache Spark-47"))
+1517241187413:print(kernel)
+1517241310407:library(sparklyr)
+1517241310413:library(dplyr)
+1517241310441:# setup SPARK_HOME
+1517241310445:if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517241310449:Sys.setenv(SPARK_HOME = "/opt/spark")
+1517241310453:}
+1517241310460:# setup SparkaaS instances
+1517241310464:options(rstudio.spark.connections = c("Apache Spark-47"))
+1517241310469:kernels <- list_spark_kernels()
+1517241337174:install.packages("sparklyr")
+1517241339538:install.packages("sparklyr")
+1517241382490:install.packages("sparklyr")
+1517241386976:install.packages("sparklyr")
+1517241387970:install.packages("sparklyr")
+1517241432462:install.packages("dylyr")
+1517241461364:RStudio
+1517241464497:RStudio.Version()
+1517241529805:install.packages("dplyr")
+1517241531246:install.packages("dplyr")
+1517241707077:install.packages("sparklyr")
+1517241709329:install.packages("sparklyr")
+1517241783536:library(sparklyr)
+1517241783542:library(dplyr)
+1517241783574:# setup SPARK_HOME
+1517241783581:if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517241783586:Sys.setenv(SPARK_HOME = "/opt/spark")
+1517241783591:}
+1517241783597:# setup SparkaaS instances
+1517241783603:options(rstudio.spark.connections = c("Apache Spark-47"))
+1517241783610:kernels <- list_spark_kernels()
+1517241810026:install.packages("sparklyr")
+1517241900573:install.packages("rlang")
+1517241902183:install.packages("rlang")
+1517241936876:install.packages("tibble")
+1517241938236:install.packages("tibble")
+1517242093843:library(sparklyr)
+1517242093851:library(dplyr)
+1517242093856:# setup SPARK_HOME
+1517242093861:if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517242093865:Sys.setenv(SPARK_HOME = "/opt/spark")
+1517242093871:}
+1517242093877:# setup SparkaaS instances
+1517242093882:options(rstudio.spark.connections = c("Apache Spark-47"))
+1517242093888:#kernels <- list_spark_kernels()
+1517242093894:#sc <- spark_connect(config=kernels[1])
+1517242093899:print(spark_config())
+1517242114753:library(sparklyr)
+1517242114762:library(dplyr)
+1517242114767:# setup SPARK_HOME
+1517242114773:if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517242114779:Sys.setenv(SPARK_HOME = "/opt/spark")
+1517242114783:}
+1517242114790:# setup SparkaaS instances
+1517242114794:options(rstudio.spark.connections = c("Apache Spark-47"))
+1517242114801:#kernels <- list_spark_kernels()
+1517242114806:#sc <- spark_connect(config=kernels[1])
+1517242114812:print(spark_config())
+1517242128969:library(sparklyr)
+1517242128975:library(dplyr)
+1517242128981:# setup SPARK_HOME
+1517242128987:if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517242128992:Sys.setenv(SPARK_HOME = "/opt/spark")
+1517242128998:}
+1517242129003:# setup SparkaaS instances
+1517242129010:options(rstudio.spark.connections = c("Apache Spark-47"))
+1517242129014:kernels <- list_spark_kernels()
+1517242365868:devtools::install_github("rstudio/sparklyr")
+1517247146338:library(sparklyr)
+1517247248399:install.packages("rlang")
+1517247490667:detach('rlang')
+1517247500602:detach_package('rlang')
+1517247528595:install.packages("rlang")
+1517247533549:install.packages("rlang")
+1517247535257:install.packages("rlang")
+1517247562798:install.packages("rlang")
+1517247566226:install.packages("rlang")
+1517247595825:install.packages('rlang')
+1517247597343:install.packages("rlang")
+1517247655219:detach(package:rlang)
+1517247669035:detach("package:rlang")
+1517247705196:if("package:rlang" %in% search()) detach("package:rlang", unload=TRUE)
+1517247711071:detach("package:rlang", unload=TRUE)
+1517247735774:rm(list = ls(all = TRUE))
+1517247755997:detachAllPackages()
+1517247772395:detachAllPackages <- function() {
+1517247772401:basic.packages <- c("package:stats","package:graphics","package:grDevices","package:utils","package:datasets","package:methods","package:base")
+1517247772406:package.list <- search()[ifelse(unlist(gregexpr("package:",search()))==1,TRUE,FALSE)]
+1517247772411:package.list <- setdiff(package.list,basic.packages)
+1517247772415:if (length(package.list)>0)  for (package in package.list) detach(package, character.only=TRUE)
+1517247772420:}
+1517247772425:detachAllPackages()
+1517247788940:install.packages('rlang')
+1517247790452:install.packages("rlang")
+1517247807393:detachAllPackages <- function() {
+1517247807399:basic.packages <- c("package:stats","package:graphics","package:grDevices","package:utils","package:datasets","package:methods","package:base")
+1517247807404:package.list <- search()[ifelse(unlist(gregexpr("package:",search()))==1,TRUE,FALSE)]
+1517247807408:package.list <- setdiff(package.list,basic.packages)
+1517247807412:if (length(package.list)>0)  for (package in package.list) detach(package, character.only=TRUE)
+1517247807417:}
+1517247807422:detachAllPackages()
+1517247807426:install.packages('rlang')
+1517247811501:install.packages("rlang")
+1517247815814:install.packages("rlang")
+1517247820368:install.packages("rlang")
+1517247824920:install.packages("rlang")
+1517247829369:install.packages("rlang")
+1517247831180:install.packages("rlang")
+1517247881394:install.packages("rlang")
+1517247883302:install.packages("rlang")
+1517247933098:#library(sparklyr)
+1517247933107:#library(dplyr)
+1517247933115:# setup SPARK_HOME
+1517247933124:#if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517247933131:#  Sys.setenv(SPARK_HOME = "/opt/spark")
+1517247933139:#}
+1517247933148:# setup SparkaaS instances
+1517247933154:#options(rstudio.spark.connections = c("Apache Spark-47"))
+1517247933163:#kernels <- list_spark_kernels()
+1517247933171:#sc <- spark_connect(config=kernels[1])
+1517247933179:detach("package:rlang", unload=TRUE)
+1517247964969:detach("package:purrr", unload=TRUE)
+1517247980232:detach("purrr", unload=TRUE)
+1517248014231:search()
+1517248034129:search()
+1517248046571:detach("package:sparklyr", unload=TRUE)
+1517248049287:#library(sparklyr)
+1517248049292:#library(dplyr)
+1517248049297:# setup SPARK_HOME
+1517248049302:#if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517248049307:#  Sys.setenv(SPARK_HOME = "/opt/spark")
+1517248049312:#}
+1517248049318:# setup SparkaaS instances
+1517248049323:#options(rstudio.spark.connections = c("Apache Spark-47"))
+1517248049328:#kernels <- list_spark_kernels()
+1517248049333:#sc <- spark_connect(config=kernels[1])
+1517248049339:search()
+1517248049366:detach("package:sparklyr", unload=TRUE)
+1517248076062:install.packages('rlang')
+1517248077484:install.packages("rlang")
+1517248095136:search()
+1517248119937:detach("package:utils", unload=TRUE)
+1517248122437:#library(sparklyr)
+1517248122442:#library(dplyr)
+1517248122449:# setup SPARK_HOME
+1517248122454:#if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517248122459:#  Sys.setenv(SPARK_HOME = "/opt/spark")
+1517248122463:#}
+1517248122470:# setup SparkaaS instances
+1517248122475:#options(rstudio.spark.connections = c("Apache Spark-47"))
+1517248122479:#kernels <- list_spark_kernels()
+1517248122484:#sc <- spark_connect(config=kernels[1])
+1517248122491:search()
+1517248122514:detach("package:utils", unload=TRUE)
+1517248146790:#library(sparklyr)
+1517248146795:#library(dplyr)
+1517248146800:# setup SPARK_HOME
+1517248146806:#if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517248146813:#  Sys.setenv(SPARK_HOME = "/opt/spark")
+1517248146818:#}
+1517248146824:# setup SparkaaS instances
+1517248146831:#options(rstudio.spark.connections = c("Apache Spark-47"))
+1517248146836:#kernels <- list_spark_kernels()
+1517248146841:#sc <- spark_connect(config=kernels[1])
+1517248146847:search()
+1517248146877:#detach("package:utils", unload=TRUE)
+1517248146882:install.packages('rlang')
+1517248171244:search()
+1517248193888:#library(sparklyr)
+1517248193894:#library(dplyr)
+1517248193901:# setup SPARK_HOME
+1517248193907:#if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517248193913:#  Sys.setenv(SPARK_HOME = "/opt/spark")
+1517248193917:#}
+1517248193925:# setup SparkaaS instances
+1517248193931:#options(rstudio.spark.connections = c("Apache Spark-47"))
+1517248193937:#kernels <- list_spark_kernels()
+1517248193945:#sc <- spark_connect(config=kernels[1])
+1517248193952:search()
+1517248193988:detach("package:utils", unload=TRUE)
+1517248193999:install.packages('rlang')
+1517248208698:#library(sparklyr)
+1517248208704:#library(dplyr)
+1517248208712:# setup SPARK_HOME
+1517248208718:#if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+1517248208724:#  Sys.setenv(SPARK_HOME = "/opt/spark")
+1517248208732:#}
+1517248208739:# setup SparkaaS instances
+1517248208745:#options(rstudio.spark.connections = c("Apache Spark-47"))
+1517248208753:#kernels <- list_spark_kernels()
+1517248208759:#sc <- spark_connect(config=kernels[1])
+1517248208764:search()
+1517248208804:detach("package:sparklyr", unload=TRUE)
+1517248208831:install.packages('rlang')
+1517248211254:install.packages("rlang")

@@ -1,0 +1,13 @@
+```{r}
+#library(sparklyr)
+#library(dplyr)
+# setup SPARK_HOME
+#if (nchar(Sys.getenv("SPARK_HOME")) < 1) {
+#  Sys.setenv(SPARK_HOME = "/opt/spark")
+#}
+
+# setup SparkaaS instances
+#options(rstudio.spark.connections = c("Apache Spark-47"))
+#kernels <- list_spark_kernels()
+#sc <- spark_connect(config=kernels[1])
+```

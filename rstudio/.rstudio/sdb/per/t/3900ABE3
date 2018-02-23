@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "```{r}\n#library(sparklyr)\n#library(dplyr)\n# setup SPARK_HOME\n#if (nchar(Sys.getenv(\"SPARK_HOME\")) < 1) {\n#  Sys.setenv(SPARK_HOME = \"/opt/spark\")\n#}\n\n# setup SparkaaS instances\n#options(rstudio.spark.connections = c(\"Apache Spark-47\"))\n#kernels <- list_spark_kernels()\n#sc <- spark_connect(config=kernels[1])\nsearch()\ndetach(\"package:sparklyr\", unload=TRUE) \ninstall.packages('rlang')\n\n```",
+    "created" : 1517247863142.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1903500442",
+    "id" : "3900ABE3",
+    "lastKnownWriteTime" : 1517247862,
+    "last_content_update" : 1517248202896,
+    "path" : "~/test-spark-connection.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

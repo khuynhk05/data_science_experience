@@ -1,0 +1,25 @@
+"0","library(sparklyr)"
+"0","library(dplyr)"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","# setup SPARK_HOME"
+"0","if (nchar(Sys.getenv(""SPARK_HOME"")) < 1) {"
+"0","  Sys.setenv(SPARK_HOME = ""/opt/spark"")"
+"0","}"
+"0","# setup SparkaaS instances"
+"0","options(rstudio.spark.connections = c(""Apache Spark-47""))"
+"0","kernels <- list_spark_kernels()"
+"2","Error: could not find function ""list_spark_kernels""
+"
